@@ -1,0 +1,18 @@
+
+
+
+<?xml version="1.0" encoding="utf-8"?><!--suppress AndroidElementNotAllowed -->
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/main_screen">
+
+    <composable
+        android:id="@+id/main_screen"
+        android:name="com.bayu07750.composablenavigationcomponentxml.MainScreenKt\$MainScreen" />
+
+    <composable
+        android:id="@+id/detail_screen"
+        android:name="com.bayu07750.composablenavigationcomponentxml.DetailScreenKt\$DetailScreen" />
+
+</navigation>
